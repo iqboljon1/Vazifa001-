@@ -12,7 +12,7 @@ class Header extends Component {
   render() {
     return (
         <header className="shadow d-flex justify-content-between p-2 align-items-center">
-        <p>Company name</p>
+        <p>Company name Start</p>
         <ul className="d-flex align-items-center">
             {
               Data.map((v) => <li><a href="#">{v}</a></li>)
